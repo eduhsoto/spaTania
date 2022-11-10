@@ -94,7 +94,6 @@ export class Head extends HTMLElement{
             padding: var(--space_elements);
             background: var(--background_color_head);
             gap: 20px;
-            height: 500px;
         }
 
         .reverse{
