@@ -266,12 +266,6 @@ footer {
     text-align: center;
 }
 
-.head{
-    transform: translateX(-90%);
-    opacity: 0;
-    transition: 1s ease-in-out;
-}
-
 .fade{
     transform: translateX(0px);
     opacity: 1;
