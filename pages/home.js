@@ -1,5 +1,4 @@
 import {Head} from "../components/Head.js";
-//import {Skill} from "../components/Skill.js"
 import {Objective} from "../components/Objective.js"
 
 export class Home extends HTMLElement{
@@ -11,7 +10,6 @@ export class Home extends HTMLElement{
         this.innerHTML = this.render();
 
         this.generateHeadElement();
-        //this.generateSkillElement();
         this.generateObjetiveElement();
     }
 
@@ -29,25 +27,6 @@ export class Home extends HTMLElement{
       component.setImage("./assets/img/profile-tania.png");
       component.headReverse = false;
     }
-
-    /*generateSkillElement(){
-      this.$skillElement = this.querySelector('#skills');
-
-      let skillSoft = new Skill();
-      let skillHard = new Skill();
-      
-      this.attributesSkill(skillSoft, skillHard);
-      this.$skillElement.appendChild(skillSoft);
-      this.$skillElement.appendChild(skillHard);
-    }
-
-    attributesSkill(skillSoft, skillHard){
-      skillSoft.setTitle("Habilidades blandas");
-      skillSoft.setLi('["Excelente comunicación oral y escrita.", "Trabajo en equipo y capacidad de liderazgo.", "Desarrollo de experiencias centradas en el ser humano.", "Capacidad de autoaprendizaje.", "Pensamiento estratégico."]');
-
-      skillHard.setTitle("Habilidades técnicas");
-      skillHard.setLi('["HTML, CSS, Bootstrap.", "Adobe XD.", "Figma.", "Invision Studio.", "Metodologías Ágiles (Manejo de tableros Scrum y Kanban).", "Design Thinking.", "Conocimiento de leyes cognitivas, creación de flujos, investigación de casos de uso y desarrollo de diseño visual."]');
-    }*/
 
     generateObjetiveElement(){
       this.$objetiveElement = this.querySelector('#objectives');

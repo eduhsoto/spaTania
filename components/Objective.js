@@ -1,4 +1,3 @@
-//not recommend use as component
 "use strict"
 export class Objective extends HTMLElement{
     constructor(){
