@@ -1,9 +1,8 @@
 {
     "routes" : [
         { "handle": "filesystem" },
-        { "src": "/(.*)", "dest": "/" }
-    ],
-    "redirects" : [
-        { "source": "/my-path", "destination": "pages/my-path.js"}
+        { "src": "/", "dest": "/" },
+        { "src": "/my-path", "dest": "/pages/my-path.js" },
+        { "src": "/portafolio", "dest": "/pages/portafolio.js" }
     ]
 }
