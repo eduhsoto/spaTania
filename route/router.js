@@ -15,6 +15,7 @@ export class Router{
             $page.removeChild($page.firstChild);
         }
         $page.appendChild(component);
+        
     }
 
     init(){
