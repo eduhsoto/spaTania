@@ -76,10 +76,7 @@ export class Project extends HTMLElement{
 
         .image{
             position: relative;
-        }
-
-        .img{
-
+            width: 100%;
         }
 
         .detail{
