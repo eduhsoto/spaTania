@@ -106,9 +106,10 @@ export class Project extends HTMLElement{
             line-height: 24px;
         }
 
-        @media screen and (max-width: 540px)
+        @media screen and (max-width: 540px){
         .detail {
             width: 269px;
+        }
         }
         </style>
         `
